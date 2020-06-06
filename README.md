@@ -13,10 +13,7 @@ in the stock market of fantasy country called "InvestorLand."
 
 ### About
 There are five sectors in InvestorVille: Energy, Technology, Aerospace & Defence, Consumer Discretionary
-and HealthCare. Each sector is related to each other and fluctuations in one can impact the other. You are able to
-progress through time and receive "updates" on events in the stock market. From here you will make decisions
-on what stock to buy or sell. There will be a total of 30 stocks distributed among the five sectors.   
-
+and HealthCare.
 
 ### Program Benefits
 The program greatly simplifies an real economy and allows people to gain a deeper understanding on how
