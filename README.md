@@ -1,5 +1,11 @@
 # Stock Market Simulator
 
+
+![alt text](mainPage.jpg)
+![alt text](diversity.jpg)
+![alt text](stockTable.jpg)
+
+
 ### A simulation with an overly-simplified economy
 
 This application will provide the user with virtual currency to "invest" 
