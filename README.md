@@ -39,20 +39,6 @@ develop my skills in both these areas and further my understanding in them
 - as a user, I want to see the audiovisual component of a piechart to represent portfolio diversification
 - as a user, I want to save the file using buttons and load the file when I begin
 
-# FOR MARKING PURPOSES
-- You can generate the first required event by going to the top left where it says buy a stock
-and you put stock number and shares. To see what stocks you can buy view your account balance and
-the click the "stocks in market button"
-- You can generate the second required event by selling a stock which would update your account balance and
-eliminate that share (or the stock completely) from the table that can be seen by clicking the button
-"view stocks you own"
-- You can locate my visual component by looking at the two tables (they are interactive, click the headers), my 
-background image (make sure you have wifi) or by clicking "view portfolio diversity"
-- You can save the state of my application by clicking the button save game
-- You can reload the state of my application by opening the game, it automatically loads.
-- NOTE** - for code coverage my marker gave me 100% despite the coverage only being 98% due
-to me using JSON and being unable to test a runtime exception
-
 
 ## PHASE 4: TASK 2
 - I chose to test and design a class that is robust. I chose the class "Stocks in Market". The method 
@@ -61,7 +47,7 @@ do not throw any run time exceptions if called with invalid parameters.
 - I also chose to include a type hierarchy in my code. The abstract class is PopUp, and its two subclasses are alert
 and confirm. They both override tha abstract method PopUp and implement it in their own distinct ways
 
-##PHASE 4: TASK 3
+## PHASE 4: TASK 3
 - The alert class in the graphics package has lost cohesion. It creates alert boxes, but also PieCharts and tables. 
 As a result, I  will follow the single responsibility principle and create two new classes, PieChart and StockTable.
 - I discovered there was unnecessary coupling as the GUI did not need to know about both the "Confirm" and "Alert" 
@@ -69,7 +55,6 @@ classes, it just needed to  know about the abstract "PopUp" class
 - Another issue I found was that there was too much cohesion in my StockTable class - I was creating two distinct 
 tables with somewhat different information. As a result, I decided to create an interface called Stock Table and had
 both MarketStocks and OwnedStocks implement the method "display market stocks"
-- Class hierarchy can be found in the data folder. The PDF is titled "UML Diagram"
 
 
 
